@@ -132,7 +132,7 @@ router.put('/:id', (req, res) => {
     });
 });
 
-// delete method for product by id
+// delete method for product deletion by id
 router.delete('/:id', async (req, res) => {
   try{
     const deleteProduct = await Product.destroy({
