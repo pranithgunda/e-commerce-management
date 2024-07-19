@@ -31,6 +31,11 @@ const productData = [
     stock: 22,
     category_id: 2,
   },
+  {
+    product_name:'Elliptical',
+    price:250.99,
+    stock:23
+  }
 ];
 
 const seedProducts = () => Product.bulkCreate(productData);

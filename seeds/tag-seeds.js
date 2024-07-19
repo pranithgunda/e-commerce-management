@@ -25,6 +25,15 @@ const tagData = [
   {
     tag_name: 'pop culture',
   },
+  {
+    tag_name: 'gym',
+  },
+  {
+    tag_name: 'pickleball',
+  },
+  {
+    tag_name: 'pickleball bats',
+  }
 ];
 
 const seedTags = () => Tag.bulkCreate(tagData);
